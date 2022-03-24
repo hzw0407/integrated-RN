@@ -1,0 +1,1544 @@
+{
+    "UIStatusBarStyle": "LightContent",
+    "Global": {
+        "mainTitleColor":"#60AEC6",
+        "TabBar": {
+            "textColor": "#999999",
+            "highlightedTextColor": "#60AEC6",
+            "iconColor": "#999999",
+            "highlightIconColor": "#60AEC6",
+            "barTintColor": "#000000",
+            "HomePage": {
+                "normalImage": "tab_homepage_normal",
+                "selectImage": "tab_homepage_select",
+            },
+            "SmartScene": {
+                "normalImage": "tab_smartscene_normal",
+                "selectImage": "tab_smartscene_select",
+            },
+            "Mine": {
+                "normalImage": "tab_mine_normal",
+                "selectImage": "tab_mine_select",
+            },
+        },
+        "NavigationBar": {
+            "textFont": "PingFangSC-Semibold,18",
+            "textColor": "#FFFFFF",
+            "backgroundColor": "#00000000",
+            "barTintColor": "#000000",
+            "barTextColor": "#FFF",
+        },
+        "NavigationBackItem": {
+            "image": "nav_back_normal_basic",
+            "highlightedImage": "nav_back_high_basic"
+        },
+        "NavigationRightItem": {
+            "textFont": "PingFangSC-Regular,16",
+            "textColor": "#60AEC6",
+            "highlightedTextColor": "#AAA"
+        },
+        "ViewController": {
+            "backgroundColor": {
+                "fromColor": "#05191E",
+                "toColor": "#000000",
+            },
+        },
+        "ItemCell": {
+            "arrowImage": "global_cell_arrow",
+            "selectImageView": {
+                "selectImage": "home_device_cell_select",
+                "normalImage": "home_device_cell_normal",
+            },
+            "deleteButton": {
+                "image": "global_cell_delete",
+                "backgroundColor": "#FF585899",
+            },
+        },
+        "AlertView": {
+            "backgroundColor": "#00000066",
+            "containerColor": "#22393F",
+            "titleLabel": {
+                "textColor": "#FFFFFF",
+                "font": "PingFangSC-Semibold,16",
+            },
+            "messageLabel": {
+                "textColor": "#FFFFFF",
+                "font": "PingFangSC-Regular,16",
+            },
+            "supplementLabel": {
+                "textColor": "#FFFFFF",
+                "font": "PingFangSC-Regular,16",
+            },
+            "cancelButton": {
+                "textColor": "#FFFFFF",
+                "font": "PingFangSC-Semibold,16",
+                "backgroundColor": "#465A5F",
+            },
+            "confirmButton": {
+                "textColor": "#FFFFFF",
+                "font": "PingFangSC-Semibold,16",
+                "backgroundColor": "#60AEC6",
+            },
+            "textField": {
+                "textColor": "#FFFFFF",
+                "font": "PingFangSC-Regular,16",
+                "backgroundColor": "#09232A",
+                "placeholderColor": "#FFFFFF99",
+            },
+        },
+        "AlertSheetView": {
+            "backgroundColor": "#00000066",
+            "containerColor": "#22393F",
+            "titleLabel": {
+                "textColor": "#FFFFFF",
+                "font": "PingFangSC-Semibold,16",
+            },
+            "messageLabel": {
+                "textColor": "#FFFFFF",
+                "font": "PingFangSC-Regular,16",
+            },
+            "actionButton": {
+                "textColor": "#FFFFFF",
+                "font": "PingFangSC-Semibold,16",
+                "backgroundColor": "#60AEC6",
+            },
+        },
+        "TextField": {
+            "textColor": "#FFFFFF",
+            "font": "PingFangSC-Regular,16",
+            "placeholderColor": "#FFFFFF99",
+            "placeholderFont": "PingFangSC-Regular,16",
+            "backgroundColor": "#09232A",
+            "clearImage": "add_device_search_clear",
+        },
+        "TextView": {
+            "textColor": "#FFFFFF",
+            "font": "PingFangSC-Regular,14",
+            "placeholderColor": "#FFFFFF99",
+            "placeholderFont": "PingFangSC-Regular,14",
+            "backgroundColor": "#00000000",
+        },
+        "passwordSecretButton": {
+            "normalImage": "global_pwd_secret_normal",
+            "selectImage": "global_pwd_secret_select",
+        },
+        "QRCodeScanController": {
+            "cornerColor": "#465A5F",
+            "tipLabel": {
+                "textColor": "#FFFFFF",
+                "font": "PingFangSC-Semibold,16",
+            },
+            "animationImage": "qr_code_scan_animation",
+            "photoImage": "qr_code_scan_photo",
+            "flashCloseImage": "qr_code_scan_flash_close",
+            "flashOpenImage": "qr_code_scan_flash_open",
+            "flashLabel": {
+                "textColor": "#FFFFFF99",
+                "font": "PingFangSC-Regular,14",
+            },
+        },
+        "GeneralImage": {
+            "saveImage": "global_nav_save",
+            "logoImage": "app_logo",
+            "defaultAvatarImage": "global_default_avatar"
+        },
+        "EmptyView": {
+            "coverImage": "global_list_empty",
+            "titleLabel": {
+                "textColor": "#FFFFFF99",
+                "font": "PingFangSC-Regular,14",
+            },
+        },
+        "ShareAlertContentView": {
+            "Device": {
+                "sourceLabel": {
+                    "textColor": "#FFFFFF",
+                    "font": "PingFangSC-Regular,16",
+                },
+                "contentLabel": {
+                    "textColor": "#FFFFFF99",
+                    "font": "PingFangSC-Regular,14",
+                },
+            },
+            "Family": {
+                "nameLabel": {
+                    "textColor": "#FFFFFF",
+                    "font": "PingFangSC-Regular,16",
+                },
+                "sourceLabel": {
+                    "textColor": "#FFFFFF99",
+                    "font": "PingFangSC-Regular,14",
+                },
+            },
+        },
+    },
+    "Login": {
+        "logoImage": "login_logo_icon_basic",
+        "agreeButton":
+        {
+           "unSelectAgreeBtn":"unSelectAgreeBtn",
+           "SelectAgreeBtn":"SelectAgreeBtn",
+          },
+        "agreeLabel":{
+           "textColor": "#666",
+           "font": "PingFangSC-Regular,13",
+         },
+   
+        "forgotPasswordButton":
+        {
+           
+                "textColor": "#60AEC6",
+                "font": "PingFangSC-Regular,15",
+                "NSTextAlignment": ".center",
+                "backgroundColor": "#292b38",
+         
+        },
+        "appName":
+        {
+            "titleLabel":{
+                "textColor": "#60AEC6",
+                "font": "PingFangSC-Semibold,24",
+                "NSTextAlignment": ".center",
+                "backgroundColor": "#292b38",
+            },
+        },
+        "remoteLabel":
+        {
+           
+                "textColor": "#666",
+                "font": "PingFangSC-Regular,13",
+                "NSTextAlignment": ".center",
+                "backgroundColor": "#292b38",
+         
+        },
+        
+        "InputCell": {
+            "titleLabel": {
+                "textColor": "#666",
+                "font": "PingFangSC-Regular,15",
+            },
+            "tView": {
+                "backgroundColor": "#09232A",
+            },
+            "contentLabel": {
+                "textColor": "#111",
+                "font": "PingFangSC-Regular,15",
+            },
+            "textField": {
+                "textColor": "#FFFFFF",
+                "placeholderColor":"#666",
+                "font": "PingFangSC-Regular,15",
+            },
+            "secretButton": {
+                "normalImage": "login_secret_hide",
+                "selectImage": "login_secret_show",
+            },
+            "getCodeLabel": {
+                "normalTextColor": "#111",
+                "disabledTextColor": "#666",
+                "font": "PingFangSC-Regular,15",
+            },
+            "lineView": {
+                "backgroundColor": "#BBB",
+            },
+            "arrowImage": "login_cell_arrow",
+        },
+        "loginButton": {
+            "textColor": "#FFFFFF",
+            "font": "PingFangSC-Regular,18",
+            "backgroundColor": "#60AEC6",
+        },
+    },
+    "Register": {
+        "InputCell": {
+            "titleLabel": {
+                "textColor": "#666",
+                "font": "PingFangSC-Regular,15",
+            },
+            "contentLabel": {
+                "textColor": "#111",
+                "font": "PingFangSC-Regular,15",
+            },
+            "textField": {
+                "textColor": "#111",
+                "font": "PingFangSC-Regular,15",
+            },
+            "secretButton": {
+                "normalImage": "login_secret_hide",
+                "selectImage": "login_secret_show",
+            },
+            "getCodeLabel": {
+                "normalTextColor": "#111",
+                "disabledTextColor": "#666",
+                "font": "PingFangSC-Regular,12",
+            },
+            "lineView": {
+                "backgroundColor": "#BBB",
+            },
+            "arrowImage": "login_cell_arrow"
+        },
+        "registerButton": {
+            "textColor": "#FFFFFF",
+            "font": "PingFangSC-Regular,18",
+            "backgroundColor": "#60AEC6",
+        },
+    },
+    "CountryList": {
+        "ItemCell": {
+            "titleLabel": {
+                "textColor": "#FFFFFF",
+                "font": "PingFangSC-Regular,16",
+            },
+            "lineView": {
+                "backgroundColor": "#BBB",
+            },
+        },
+        "SectionHeader": {
+            "titleLabel": {
+                "textColor": "#FFFFFF",
+                "font": "PingFangSC-Medium,16",
+            },
+        },
+        "SectionIndex": {
+            "textColor": "#60AEC6",
+        },
+        "SearchBar": {
+            "CancelButton": {
+                "textColor": "#FFFFFF",
+                "font": "PingFangSC-Regular,16",
+            },
+            "textColor": "#FFFFFF",
+            "font": "PingFangSC-Regular,16",
+            "backgroundColor": "#09232A",
+        },
+        "saveButton": {
+            "textColor": "#FFFFFF",
+        },
+    },
+    "Mine": {
+        "MineController": {
+            "PersonInformationView": {
+                "accountLabel": {
+                    "textColor": "#111",
+                    "font": "PingFangSC-Regular,14",
+                },
+                "avatarImageView": {
+                    "defaultImage": "global_default_avatar",
+                },
+            },
+            "SCMinePersonInfoHeaderView": {
+                "accountLabel": {
+                    "textColor": "#FFF",
+                    "font": "PingFangSC-Semibold,22",
+                },
+                "telephoneLabel": {
+                    "textColor": "#FFF",
+                    "font": "PingFangSC-Regular,16",
+                },
+                "deviceCountLabel": {
+                    "textColor": "#FFF",
+                    "font": "PingFangSC-Regular,12",
+                },
+                "editButton": {
+                    "textColor": "#60AEC6",
+                    "font": "PingFangSC-Regular,16",
+                },
+                "avatarImageView": {
+                    "defaultImage": "global_default_avatar",
+                },
+            },
+            "SCMinePersonInfoFooterView": {
+                "logoutBtn": {
+                    "textColor": "#FF5858",
+                    "font": "PingFangSC-Semibold,16",
+                    "backgroundColor": "#09232A",
+                },
+             },
+        },
+        "SCMineBaseCell": {
+            "colorBgView": {
+                "backgroundColor": "#09232A",
+            },
+            "arrowImage": "mine_arrow_icon",
+            "titleLabel":{
+                "textColor": "#FFFFFF",
+                "font": "PingFangSC-Regular,16",
+            },
+            "bottomLineView": {
+                "backgroundColor": "#16434F",
+            },
+        },
+        "SCMineTextFieldCell": {
+            "textField": {
+                "textColor": "#FFFFFF",
+                "font": "PingFangSC-Regular,16",
+            },
+        },
+        "SCMineInfoEditController": {
+            "photoButton": {
+                "image": "mine_potho_btn",
+            },
+            "SCMineInfoEditTextCell": {
+                "subTitleLabel":{
+                    "textColor": "#FFFFFF",
+                    "font": "PingFangSC-Regular,14",
+                },
+            },
+            "editButton": {
+                "image": "mine_change_name",
+            },
+            "SCMinePhotoSelectAlert": {
+                "bgColor": "#22393F",
+                "cameraBtn": {
+                    "titleColor": "#FFFFFF",
+                    "font": "PingFangSC-Semibold,16",
+                },
+                "photoBtn": {
+                    "titleColor": "#FFFFFF",
+                    "font": "PingFangSC-Semibold,16",
+                },
+                "cancelBtn": {
+                    "titleColor": "#FFFFFF",
+                    "font": "PingFangSC-Semibold,16",
+                    "bgColor": "#60AEC6",
+                },
+                "lineView": {
+                    "bgColor": "#60AEC6",
+                },
+            },
+        },
+        "SCMineVerificationVC": {
+            "sendCodeButton": {
+                "textColor": "#60AEC6",
+                "font": "PingFangSC-Regular,16",
+                "disabledTextColor": "#FFFFFF",
+            },
+            "confirmButton": {
+                "textDisabledColor": "#FFFFFF",
+                "textEnableColor": "#FFFFFF",
+                "font": "PingFangSC-Semibold,16",
+            },
+            "resetPhoneButton": {
+                "textColor": "#FFFFFF",
+                "font": "PingFangSC-Semibold,14",
+                "image": "mine_arrow_icon",
+            },
+        },
+        "SCMineResetPasswordController": {
+            "saveBtn": {
+                "image": "mine_resetpwd_save_normal",
+                "disabledImage": "mine_resetpwd_save_disable",
+            },
+        },
+        "SCMineAccountCancellationVC": {
+            "worningIconView": {
+                "image": "mine_account_cancellation",
+            },
+            "titleLabel": {
+                "textColor": "#FFFFFF",
+                "font": "PingFangSC-Semibold,18",
+            },
+        },
+        
+        "SCMineShareMainVC": {
+            "SCMineShareHistoryCell": {
+                "titleLabel": {
+                    "textColor": "#FFFFFF",
+                    "font": "PingFangSC-Semibold,14",
+                },
+                "subTitleLabel": {
+                    "textColor": "#FFFFFF99",
+                    "font": "PingFangSC-Semibold,12",
+                },
+                "sourceLabel": {
+                    "textColor": "#FFFFFF99",
+                    "font": "PingFangSC-Semibold,12",
+                },
+                "statusLb": {
+                    "untreatedColor": "#FF842B",
+                    "treatedColor": "#FFFFFF",
+                    "font": "PingFangSC-Regular,14",
+                    "untreatedBgColor": "#FF842B26",
+                    "treatedBgColor": "#FFFFFF00",
+                },
+            },
+        },
+        "SCMineShareDeviceMainVC": {
+            "segmentedView": {
+                "backgroundColor": "#09232A",
+            },
+            "editButton": {
+                "normalImage": "mine_share_selet_edit",
+                "selectImage": "mine_share_device",
+            },
+        },
+        "SCMineShareDeviceListVC": {
+            "SCMineDeviceItemCell": {
+                "notSharedTextColor": "#FFFFFF99",
+                "sharedTextColor": "#60AEC6",
+                "font": "PingFangSC-Regular,14",
+            },
+            "shareBottomView": {
+                "backgroundColor": "#60AEC699",
+                "textColor": "#FFFFFF",
+                "font": "PingFangSC-Semibold,16",
+                "normalImage": "mine_share_bottom",
+            },
+        },
+        "SCMineAddDeviceVC": {
+            "titleLabel": {
+                "textColor": "#FFFFFF",
+                "font": "PingFangSC-Semibold,16",
+            },
+        },
+        "SCMineShareHistoryVC": {
+            "titleLabel": {
+                "textColor": "#FFFFFF",
+                "font": "PingFangSC-Regular,16",
+            },
+            "subTitleLabel": {
+                "textColor": "#FFFFFF99",
+                "font": "PingFangSC-Regular,14",
+            },
+        },
+        "SCMineShareListVC": {
+            "SCMineShareListItemCell": {
+                "titleLabel": {
+                    "textColor": "#FFFFFF",
+                    "font": "PingFangSC-Semibold,14",
+                },
+                "subTitleLabel": {
+                    "textColor": "#FFFFFF99",
+                    "font": "PingFangSC-Semibold,12",
+                },
+                "statusLb": {
+                    "font": "PingFangSC-Regular,14",
+                    "textColor": "#FFFFFF",
+                },
+                "deleteButton": {
+                    "backgroundColor": "#FF585899",
+                    "image": "mine_device_delet",
+                },
+            },
+            "shareButton": {
+                "backgroundColor": "#60AEC6",
+                "textColor": "#FFFFFF",
+                "font": "PingFangSC-Semibold,16",
+            },
+            "tipLabel": {
+                "textColor": "#FFFFFF",
+                "font": "PingFangSC-Semibold,14",
+            },
+        },
+        "SCMineShareDeviceSceneVC": {
+            "houseArrowBtn": {
+                "image": "mine_share_drop_arrow",
+            },
+            "volumeBtn": {
+                "image": "mine_share_volume",
+            },
+            "addBtn": {
+                "image": "mine_share_add_device",
+            },
+            "houseNameLabel": {
+                "font": "PingFangSC-Semibold,22",
+                "textColor": "#FFFFFF",
+            },
+            "SCMineShareDeviceSceneListCell": {
+                "titleLabel": {
+                    "textColor": "#FFFFFF",
+                    "font": "PingFangSC-Semibold,12",
+                },
+                "subTitleLabel": {
+                    "textColor": "#FFFFFF99",
+                    "font": "PingFangSC-Semibold,10",
+                    "offLineTextColor": "#FF842B",
+                },
+                "backgroundColor": {
+                    "fromColor": "#60ADC5",
+                    "toColor": "#60ADC580",
+                },
+            },
+        },
+        "SCMineSettingVC": {
+            "SCMineInfoTextAndSwitchCell": {
+                "noticeSwitch": {
+                    "normalImage": "mine_setting_notice_seleted",
+                    "selectImage": "mine_setting_notice_seleteds",
+                },
+            },
+            "SCMineSettingTimePickerView": {
+                "titleLabel": {
+                    "selectedTextColor": "#60AEC6",
+                    "selectedFont": "PingFangSC-Semibold,16",
+                    "normalTextColor": "#FFFFFF99",
+                    "normalFont": "PingFangSC-Regular,15",
+                },
+                "lineImage": "mine_time_picker_line",
+            },
+            "SCMineSettingWeekItemCell": {
+                "selectBtn": {
+                    "normalImage": "mine_select_normal",
+                    "selectImage": "mine_select_selected",
+                },
+            },
+            "SCMineSettingLanguageCell": {
+                "selectBtn": {
+                    "selectImage": "mine_setting_language_selected",
+                },
+            },
+        },
+        
+        "SCMineSettingLanguageVC": {
+            "saveImage": "mine_setting_save",
+        },
+        "SCMineHelpVC": {
+            "deleteView": {
+                "bgColor": "#60AEC699",
+                "deletBtnImg": "mine_help_delete",
+                "textColor": "#FFFFFF",
+                "font": "PingFangSC-Semibold,16",
+            },
+            "moreImage": "mine_help_more",
+            "SCMineHelpItemCell": {
+                "titleLabel": {
+                    "textColor": "#FFFFFF",
+                    "font": "PingFangSC-Regular,12",
+                },
+            },
+            "SCMineHelpSectionHeaderView": {
+                "titleLabel": {
+                    "textColor": "#FFFFFF",
+                    "font": "PingFangSC-Semibold,16",
+                },
+                "lineViewBgColor": "#16434F",
+            },
+            "SCMineHelpListCell": {
+                "titleLabel": {
+                    "textColor": "#FFFFFF",
+                    "font": "PingFangSC-Semibold,14",
+                },
+                "subTitleLabel": {
+                    "textColor": "#FFFFFF99",
+                    "font": "PingFangSC-Regular,12",
+                },
+            },
+            "SCMineHelpAndFeedbackCell": {
+                "titleLabel": {
+                    "textColor": "#FFFFFF",
+                    "font": "PingFangSC-Semibold,14",
+                },
+            },
+            "feedbackButton": {
+                "backgroundColor": "#60AEC6",
+                "textColor": "#FFFFFF",
+                "font": "PingFangSC-Semibold,16",
+            },
+        },
+        "SCMineFeedbackSendVC": {
+            "titleLabel": {
+                "textColor": "#FFFFFF",
+                "font": "PingFangSC-Semibold,14",
+            },
+            "textView": {
+                "textColor": "#FFFFFF",
+                "font": "PingFangSC-Regular,14",
+            },
+        },
+        "SCMineFeedbackInputVC": {
+            "titleLabel": {
+                "textColor": "#FFFFFF",
+                "font": "PingFangSC-Semibold,16",
+            },
+            "contentView": {
+                "backgroundColor": "#09232A",
+            },
+            "textView": {
+                "textColor": "#FFFFFF",
+                "font": "PingFangSC-Regular,14",
+            },
+            "addImageButton": {
+                "image": "mine_feedback_addimage",
+            },
+            "placeholderLb": {
+                "textColor": "#FFFFFF99",
+                "font": "PingFangSC-Regular,14",
+            },
+            "deleteImageButton": {
+                "image": "mine_image_edit_delete",
+            },
+        },
+        "SCMineAboutController": {
+            "titleLabel": {
+                "textColor": "#FFFFFF",
+                "font": "PingFangSC-Semibold,14",
+            },
+            "textView": {
+                "textColor": "#FFFFFF",
+                "font": "PingFangSC-Regular,14",
+            },
+            "logoLb": {
+                "textColor": "#60AEC6",
+                "font": "PingFangSC-Semibold,24",
+            },
+            "versionLb": {
+                "textColor": "#FFFFFF",
+                "font": "PingFangSC-Semibold,14",
+            },
+        },
+        "SCMineConsumablesVC": {
+            "SCMineConsumableCell": {
+                "titleLabel": {
+                    "textColor": "#60AEC6",
+                    "font": "PingFangSC-Semibold,16",
+                },
+                "subTitleLabel": {
+                    "textColor": "#FFFFFF",
+                    "font": "PingFangSC-Semibold,16",
+                },
+            },
+            "sectionHeaderView": {
+                "titleLabel": {
+                    "textColor": "#FFFFFF",
+                    "font": "PingFangSC-Semibold,14",
+                },
+                "subTitleLabel": {
+                    "textColor": "#FFFFFF99",
+                    "font": "PingFangSC-Semibold,12",
+                },
+            },
+            "titleButton": {
+                "textColor": "#FFFFFF",
+                "font": "PingFangSC-Semibold,18",
+                "normalImage": "mine_combouse_normal",
+                "selectImage": "mine_combouse_normal",
+            },
+            "SCMineHouseSelectCell": {
+                "titleLabel": {
+                    "textColor": "#FFFFFF",
+                    "selectedTextColor": "#60AEC6",
+                    "font": "PingFangSC-Semibold,14",
+                },
+            },
+        },
+        "ShareHistoryController": {
+            "ItemCell": {
+                "nameLabel": {
+                    "textColor": "#FFFFFF",
+                    "font": "PingFangSC-Semibold,14",
+                },
+                "sourceLabel": {
+                    "textColor": "#FFFFFF99",
+                    "font": "PingFangSC-Regular,12",
+                },
+                "roomNameLabel": {
+                    "textColor": "#FFFFFF99",
+                    "font": "PingFangSC-Regular,12",
+                },
+                "statusLabel": {
+                    "textColor": "#FFFFFF",
+                    "font": "PingFangSC-Regular,14",
+                    "normalTextColor": "#FF842B",
+                    "normalBackgroundColor": "#FF842B26",
+                },
+            },
+        },
+        "ShareTypeController": {
+            "ItemCell": {
+                "titleLabel": {
+                    "textColor": "#FFFFFF",
+                    "font": "PingFangSC-Semibold,16",
+                },
+                "backgroundColor": "#09232A",
+            },
+            "familyImage": "share_type_cell_family",
+            "deviceImage": "share_type_cell_device",
+        },
+        "DeviceShareController": {
+            "MenuView": {
+                "backgroundColor": "#09232A",
+                "Item": {
+                    "textColor": "#FFFFFF99",
+                    "font": "PingFangSC-Semibold,16",
+                    "selectedTextColor": "#FFFFFF",
+                    "backgroundColor": "#09232A00",
+                    "selectedBackgroundColor": "#60AEC6",
+                },
+            },
+            "ShareView": {
+                "ItemCell": {
+                    "nameLabel": {
+                        "textColor": "#FFFFFF",
+                        "font": "PingFangSC-Medium,14",
+                    },
+                    "statusLabel": {
+                        "textColor": "#FFFFFF99",
+                        "font": "PingFangSC-Regular,14",
+                        "sharedTextColor": "#60AEC6",
+                    },
+                },
+            },
+            "editImage": "share_list_edit",
+            "selectAllImage": "share_list_select_all",
+            "cancelEditImage": "global_nav_save",
+            "shareButton": {
+                "image": "share_list_share_device",
+                "textColor": "#FFFFFF",
+                "font": "PingFangSC-Semibold,16",
+                "backgroundColor": "#60AEC6",
+                "disabledTextColor": "#FFFFFF4C",
+                "disabledBackgroundColor": "#60AEC64C",
+            },
+            "UserListController": {
+                "shareButton": {
+                    "textColor": "#FFFFFF",
+                    "font": "PingFangSC-Semibold,16",
+                    "backgroundColor": "#60AEC6",
+                },
+            },
+            "AddController": {
+                "titleLabel": {
+                    "textColor": "#FFFFFF",
+                    "font": "PingFangSC-Semibold,16",
+                },
+                "shareButton": {
+                    "textColor": "#FFFFFF",
+                    "font": "PingFangSC-Semibold,16",
+                    "backgroundColor": "#60AEC6",
+                    "disabledTextColor": "#FFFFFF4C",
+                    "disabledBackgroundColor": "#60AEC64C",
+                },
+            },
+        },
+        "Feedback": {
+            "FeedbackTypeController": {
+                "recordImage": "feedback_record",
+                "HeaderView": {
+                    "titleLabel": {
+                        "textColor": "#FFFFFF",
+                        "font": "PingFangSC-Semibold,16",
+                    },
+                    "lineBackgroundColor": "#17444F",
+                },
+                "ItemCell": {
+                    "titleLabel": {
+                        "textColor": "#FFFFFF",
+                        "font": "PingFangSC-Regular,12",
+                    },
+                },
+            },
+            "FeedbackQuestionListController": {
+                "ItemCell": {
+                    "titleLabel": {
+                        "textColor": "#FFFFFF",
+                        "font": "PingFangSC-Semibold,14",
+                    },
+                },
+                "feedbackButton": {
+                    "textColor": "#FFFFFF",
+                    "font": "PingFangSC-Semibold,16",
+                    "backgroundColor": "#60AEC6",
+                },
+                "DetailView": {
+                    "titleLabel": {
+                        "textColor": "#FFFFFF",
+                        "font": "PingFangSC-Semibold,14",
+                    },
+                    "contentLabel": {
+                        "textColor": "#FFFFFF",
+                        "font": "PingFangSC-Regular,14",
+                    },
+                    "lineBackgroundColor": "#16434F",
+                },
+            },
+            "FeedbackController": {
+                "ContentView": {
+                    "backgroundColor": "#09232A",
+                    "textView": {
+                        "textColor": "#FFFFFF",
+                        "font": "PingFangSC-Regular,14",
+                        "backgroundColor": "#00000000",
+                        "placeholderColor": "#FFFFFF99",
+                    },
+                    "addImageImage": "feedback_add_image",
+                    "deleteImageImage": "feedback_delete_image",
+                    "addLabel": {
+                        "textColor": "#FFFFFF",
+                        "font": "PingFangSC-Regular,14",
+                    },
+                },
+                "nameLabel": {
+                    "textColor": "#FFFFFF",
+                    "font": "PingFangSC-Semibold,16",
+                },
+                "uploadButton": {
+                    "textColor": "#FFFFFF",
+                    "font": "PingFangSC-Semibold,16",
+                    "backgroundColor": "#60AEC6",
+                },
+            },
+            "FeedbackRecordController": {
+                "ItemCell": {
+                    "titleLabel": {
+                        "textColor": "#FFFFFF",
+                        "font": "PingFangSC-Semibold,14",
+                    },
+                    "contentLabel": {
+                        "textColor": "#FFFFFF99",
+                        "font": "PingFangSC-Regular,12",
+                    },
+                    "nameAndTimeLabel": {
+                        "textColor": "#FFFFFF99",
+                        "font": "PingFangSC-Regular,12",
+                    },
+                    "selectImage": "home_device_cell_select",
+                    "normalImage": "home_device_cell_normal",
+                },
+                "deleteButton": {
+                    "image": "share_list_share_device",
+                    "textColor": "#FFFFFF",
+                    "font": "PingFangSC-Semibold,16",
+                    "backgroundColor": "#60AEC6",
+                    "disabledTextColor": "#FFFFFF4C",
+                    "disabledBackgroundColor": "#60AEC64C",
+                },
+                "editImage": "share_list_edit",
+                "selectAllImage": "share_list_select_all",
+            },
+        },
+    },
+    "HomePage": {
+        "AccountTypeController": {
+            "wechatImage": "member_account_wechat",
+            "aijiaImage": "member_account_aijia",
+            "ItemCell": {
+                "titleLabel": {
+                    "textColor": "#FFFFFF",
+                    "font": "PingFangSC-Regular,16",
+                },
+                "backgroundColor": "#09232A",
+            },
+        },
+        "MessageCenterController": {
+            "MenuView": {
+                "titleLabel": {
+                    "textColor": "#60AEC6",
+                    "font": "PingFangSC-Regular,14",
+                    "selectedTextColor": "#000000",
+                    "selectedFont": "PingFangSC-Semibold,14",
+                    "backgroundColor": "#09232A",
+                    "selectedBackgroundColor": "#60AEC6",
+                    "badgeBackground": "#FF574B",
+                },
+                "lineBackgroundColor": "#17444F",
+            },
+            "ShareMessage": {
+                "MenuView": {
+                    "titleLabel": {
+                        "textColor": "#FFFFFF99",
+                        "font": "PingFangSC-Regular,16",
+                        "selectedTextColor": "#60AEC6",
+                        "selectedFont": "PingFangSC-Semibold,16",
+                    },
+                },
+                "ItemCell": {
+                    "nameLabel": {
+                        "textColor": "#FFFFFF",
+                        "font": "PingFangSC-Semibold,14",
+                    },
+                    "contentLabel": {
+                        "textColor": "#FFFFFF99",
+                        "font": "PingFangSC-Regular,14",
+                    },
+                    "statusLabel": {
+                        "textColor": "#FFFFFF",
+                        "font": "PingFangSC-Regular,14",
+                        "waitProcessedTextColor": "#FF852C",
+                        "waitProcessedBackgroundColor": "#FF852C26",
+                    },
+                },
+            },
+            "DeviceMessage": {
+                "MenuView": {
+                    "textColor": "#FFFFFF",
+                    "font": "PingFangSC-Semibold,16",
+                    "image": "home_family_btn",
+                },
+                "ItemCell": {
+                    "nameLabel": {
+                        "textColor": "#FFFFFF99",
+                        "font": "PingFangSC-Regular,12",
+                    },
+                    "timeLabel": {
+                        "textColor": "#FFFFFF99",
+                        "font": "PingFangSC-Regular,12",
+                    },
+                    "statusLabel": {
+                        "textColor": "#FFFFFF",
+                        "font": "PingFangSC-Semibold,14",
+                    },
+                },
+            },
+            "DeviceMessageDetailController": {
+                "ItemCell": {
+                    "timeLabel": {
+                        "textColor": "#FFFFFF",
+                        "font": "PingFangSC-Regular,14",
+                    },
+                    "contentLabel": {
+                        "textColor": "#FFFFFF",
+                        "font": "PingFangSC-Semibold,16",
+                    },
+                    "backgroundColor": "#09232A",
+                },
+                "SectionHeader": {
+                    "titleLabel": {
+                        "textColor": "#FFFFFF99",
+                        "font": "PingFangSC-Regular,14",
+                    },
+                    "cornerBackgroundColor": "#09232A",
+                },
+                "SectionFooter": {
+                    "cornerBackgroundColor": "#09232A",
+                },
+            },
+        },
+        "HomePageController": {
+            "AddDeviceToRoom": {
+                "ItemCell": {
+                    "nameLabel": {
+                        "textColor": "#FFFFFF99",
+                        "font": "PingFangSC-Regular,16",
+                        "selectedTextColor": "#FFFFFF",
+                    },
+                    "lineBackgroundColor": "#16434F",
+                    "selectedImage": "add_device_to_room_select",
+                },
+                "AddView": {
+                    "textColor": "#60AEC6",
+                    "font": "PingFangSC-Regular,16",
+                    "addImage": "add_device_to_room_add",
+                },
+            },
+            "EditingNavigationBar": {
+                "saveImage": "global_nav_save",
+                "selectAllImage": "home_device_select_all",
+                "titleLabel": {
+                    "textColor": "#FFFFFF",
+                    "font": "PingFangSC-Semibold,18",
+                },
+                "backgroundColor": "#000000",
+            },
+            "familyButton": {
+                "textColor": "#FFFFFF",
+                "font": "PingFangSC-Semibold,22",
+                "image": "home_family_btn",
+            },
+            "notificationButton": {
+                "badgeColor": "#FFF",
+                "badgeFont": "PingFangSC-Semibold,8",
+                "badgeBackgroundColor": "#FF3021",
+                "image": "home_notification_btn",
+            },
+            "addDeviceButton": {
+                "image": "home_add_device_btn",
+            },
+            "menuView": {
+                "normalTitleColor": "#999999",
+                "selectTitleColor": "#FFF",
+                "normalTitleFont": "PingFangSC-Regular,14",
+                "selectTitleFont": "PingFangSC-Semibold,18",
+                "backgroundColor": "#00000000",
+                "settingsImage": "home_menu_set",
+            },
+            "listView": {
+                "backgroundColor": "#00000000",
+            },
+            "settingsButton": {
+                "image": "home_settings_btn",
+            },
+            "ItemCell": {
+                "nameLabel": {
+                    "textColor": "#FFFFFF",
+                    "font": "PingFangSC-Semibold,12",
+                },
+                "statusLabel": {
+                    "textColor": "#999999",
+                    "offlineTextColor": "#FF842B",
+                    "font": "PingFangSC-Regular,10",
+                },
+                "backgroundColor": {
+                    "fromColor": "#60ADC5",
+                    "toColor": "#305662",
+                },
+                "offlineBackgroundColor": "#4E8CA84C",
+                "selectImage": "home_device_cell_select",
+                "normalImage": "home_device_cell_normal",
+            },
+            "BottomView": {
+                "backgroundColor": "#000000",
+                "textColor": "#FFFFFF99",
+                "font": "PingFangSC-Regular,12",
+                "addToUsed": "home_bottom_add_used",
+                "moveTopImage": "home_bottom_move_top",
+                "moveOutUsedImage": "home_bottom_moveout_used",
+                "moveImage": "home_bottom_move",
+                "shareImage": "home_bottom_share",
+                "deleteImage": "home_bottom_delete",
+                "renameImage": "home_bottom_rename",
+            },
+            "EmptyView": {
+                "coverImage": "home_device_list_empty",
+                "titleLabel": {
+                    "textColor": "#FFFFFF",
+                    "font": "PingFangSC-Semibold,14",
+                },
+            },
+            "MoveRoomDeviceController": {
+                "ItemCell": {
+                    "nameLabel": {
+                        "textColor": "#FFFFFF",
+                        "font": "PingFangSC-Semibold,16",
+                    },
+                    "countLabel": {
+                        "textColor": "#FFFFFF99",
+                        "font": "PingFangSC-Regular,12",
+                    },
+                    "selectImage": "home_device_cell_select",
+                },
+            },
+            "AlertFamilyListView": {
+                "backgroundColor": "#00000066",
+                "ItemCell": {
+                    "nameLabel": {
+                        "textColor": "#FFFFFF",
+                        "font": "PingFangSC-Regular,14",
+                    },
+                    "backgroundColor": "#09232A",
+                    "selectImage": "alert_family_list_select",
+                    "settingsImage": "alert_family_list_set",
+                    "lineBackgroundColor": "#16434F",
+                },
+            }
+        },
+        "FamilyListController": {
+            "NavigationBar": {
+                "addFamilyImage": "family_nav_add",
+            },
+            "SectionHeader": {
+                "nameLabel": {
+                    "textColor": "#FFFFFF99",
+                    "font": "PingFangSC-Semibold,14",
+                },
+            },
+            "ItemCell": {
+                "backgroundColor": "#09232A",
+                "nameLabel": {
+                    "textColor": "#FFFFFF",
+                    "font": "PingFangSC-Semibold,16",
+                },
+                "contentLabel": {
+                    "textColor": "#FFFFFF99",
+                    "font": "PingFangSC-Regular,12",
+                },
+                "autoChangeLabel": {
+                    "textColor": "#FFFFFF",
+                    "font": "PingFangSC-Regular,14",
+                },
+            },
+            "FamilyDetailController": {
+                "deleteFamilyButton": {
+                    "textColor": "#FF574B",
+                    "font": "PingFangSC-Semibold,16",
+                    "backgroundColor": "#092229",
+                },
+                "ItemCell": {
+                    "coverImage": {
+                        "nameImage": "add_family_cell_name",
+                        "locationImage": "add_family_cell_location",
+                        "deviceImage": "add_family_cell_device",
+                        "roomImage": "add_family_cell_room",
+                        "memberImage": "add_family_cell_member",
+                    },
+                },
+            },
+            "AddFamilyController": {
+                "ItemCell": {
+                    "coverImage": {
+                        "nameImage": "add_family_cell_name",
+                        "locationImage": "add_family_cell_location",
+                    },
+                    "nameLabel": {
+                        "textColor": "#FFFFFF",
+                        "font": "PingFangSC-Semibold,16",
+                    },
+                    "contentLabel": {
+                        "textColor": "#FFFFFF99",
+                        "font": "PingFangSC-Regular,12",
+                    },
+                },
+                "addFamilyButton": {
+                    "textColor": "#FFFFFF",
+                    "font": "PingFangSC-Semibold,16",
+                    "disabledTextColor": "#FFFFFF4C",
+                    "backgroundColor": "#60AEC6",
+                    "disabledBackgroundColor": "#60AEC64C",
+                },
+            },
+            "FamilyLocationController": {
+                "SearchButton": {
+                    "backgroundColor": "#000000",
+                    "textColor": "#FFFFFF99",
+                    "font": "PingFangSC-Regular,16",
+                    "image": "family_location_search",
+                },
+                "SearchLocationController": {
+                    "SearchView": {
+                        "textColor": "#FFFFFF",
+                        "font": "PingFangSC-Regular,14",
+                        "placeholderColor": "#FFFFFF99",
+                        "placeholderFont": "PingFangSC-Regular,14",
+                        "searchImage": "add_device_search_search",
+                        "clearImage": "add_device_search_clear",
+                        "backgroundColor": "#000000",
+                        "cancelButton": {
+                            "textColor": "#FFFFFF",
+                            "font": "PingFangSC-Regular,14",
+                        },
+                    },
+                    "ItemCell": {
+                        "titleLabel": {
+                            "textColor": "#FFFFFF",
+                            "font": "PingFangSC-Semibold,16",
+                        },
+                        "contentLabel": {
+                            "textColor": "#FFFFFF99",
+                            "font": "PingFangSC-Regular,12",
+                        },
+                    },
+                },
+            },
+            "RoomListController": {
+                "ItemCell": {
+                    "nameLabel": {
+                        "textColor": "#FFFFFF",
+                        "font": "PingFangSC-Semibold,16",
+                    },
+                    "contentLabel": {
+                        "textColor": "#FFFFFF99",
+                        "font": "PingFangSC-Regular,12",
+                    },
+                    "sortImage": "family_room_cell_sort",
+                },
+                "addImage": "family_room_add",
+                "editButton": {
+                    "editImage": "family_room_edit",
+                    "saveImage": "global_nav_save",
+                },
+                "AddRoomController": {
+                    "ItemCell": {
+                        "nameLabel": {
+                            "textColor": "#FFFFFF99",
+                            "font": "PingFangSC-Regular,14",
+                            "selectedTextColor": "#000000",
+                            "selectedFont": "PingFangSC-Semibold,14",
+                        },
+                        "backgroundColor": "#FFFFFF26",
+                        "selectedBackgroundColor": "#60AEC6",
+                    },
+                    "lineBackgroundColor": "#16434F",
+                    "tipLabel": {
+                        "textColor": "#FFFFFF99",
+                        "font": "PingFangSC-Semibold,14",
+                    },
+                    "SearchView": {
+                        "textColor": "#FFFFFF",
+                        "font": "PingFangSC-Regular,16",
+                        "placeholderColor": "#FFFFFF99",
+                        "placeholderFont": "PingFangSC-Regular,16",
+                        "backgroundColor": "#09232A",
+                    }
+                },
+            },
+            "MemberListController": {
+                "ItemCell": {
+                    "nameLabel": {
+                        "textColor": "#FFFFFF",
+                        "font": "PingFangSC-Semibold,16",
+                    },
+                    "identityLabel": {
+                        "textColor": "#FFFFFF99",
+                        "font": "PingFangSC-Regular,12",
+                        "notConfirmTextColor": "#FF842B",
+                    },
+                },
+                "addButton": {
+                    "textColor": "#FFFFFF",
+                    "font": "PingFangSC-Semibold,16",
+                    "backgroundColor": "#60AEC6",
+                },
+            },
+            "MemberDetailController": {
+                "nameLabel": {
+                    "textColor": "#FFFFFF",
+                    "font": "PingFangSC-Semibold,16",
+                },
+                "ItemCell": {
+                    "titleLabel": {
+                        "textColor": "#FFFFFF",
+                        "font": "PingFangSC-Regular,16",
+                    },
+                    "contentLabel": {
+                        "textColor": "#FFFFFF99",
+                        "font": "PingFangSC-Regular,14",
+                    },
+                    "backgroundColor": "#09232A",
+                },
+                "deleteButton": {
+                    "textColor": "#FFFFFF",
+                    "font": "PingFangSC-Semibold,16",
+                    "backgroundColor": "#FF574B",
+                },
+            },
+            "AddMemberController": {
+                "AccountType": {
+                    "wechatImage": "member_account_wechat",
+                    "aijiaImage": "member_account_aijia",
+                    "ItemCell": {
+                        "titleLabel": {
+                            "textColor": "#FFFFFF",
+                            "font": "PingFangSC-Regular,16",
+                        },
+                        "backgroundColor": "#09232A",
+                    },
+                },
+                "doneButton": {
+                    "textColor": "#FFFFFF",
+                    "font": "PingFangSC-Semibold,16",
+                    "disabledTextColor": "#FFFFFF4C",
+                    "backgroundColor": "#60AEC6",
+                    "disabledBackgroundColor": "#60AEC64C",
+                },
+            },
+        },
+        "ShareDeviceToAccountController": {
+            "doneButton": {
+                "textColor": "#FFFFFF",
+                "font": "PingFangSC-Semibold,16",
+                "disabledTextColor": "#FFFFFF4C",
+                "backgroundColor": "#60AEC6",
+                "disabledBackgroundColor": "#60AEC64C",
+            },
+        },
+        "AddDeviceController": {
+            "NavigationBar": {
+                "searchButton": {
+                    "image": "add_device_search_btn",
+                },
+                "scanCodeButton": {
+                    "image": "add_device_scancode_btn",
+                },
+            },
+            "ProductParentCell": {
+                "nameLabel": {
+                    "normalTextColor": "#FFFFFF99",
+                    "selectTextColor": "#FFFFFF",
+                    "normalFont": "PingFangSC-Regular,14",
+                    "selectFont": "PingFangSC-Semibold,14",
+                },
+            },
+            "ProductChildHeader": {
+                "nameLabel": {
+                    "textColor": "#FFFFFF",
+                    "font": "PingFangSC-Semibold,14",
+                },
+            },
+            "ProductItemCell": {
+                "nameLabel": {
+                    "textColor": "#FFFFFF",
+                    "font": "PingFangSC-Regular,10",
+                },
+                "backgroundColor": "#09232A",
+            },
+            "AutoSearchView": {
+                "TitleView": {
+                    "image": "add_device_auto_search",
+                    "textColor": "#FFFFFF",
+                    "font": "PingFangSC-Regular,14",
+                },
+                "ContentView": {
+                    "noneTitleLabel": {
+                        "textColor": "#FFFFFF",
+                        "font": "PingFangSC-Semibold,16",
+                    },
+                    "noneReasonButton": {
+                        "textColor": "#60AEC6",
+                        "font": "PingFangSC-Semibold,12",
+                    },
+                    "lineBackgroundColor": "#16434F",
+                },
+                "AuthView": {
+                    "titleLabel": {
+                        "textColor": "#FFFFFF",
+                        "font": "PingFangSC-Semibold,16",
+                    },
+                    "bluetoothImage": "add_auto_search_auth_ble",
+                    "wifiImage": "add_auto_search_auth_wifi",
+                    "askImage": "add_auto_search_auth_ask",
+                    "backgroundColor": "#09232A",
+                },
+                "GuideView": {
+                    "titleLabel": {
+                        "textColor": "#FFFFFF",
+                        "font": "PingFangSC-Regular,14",
+                    },
+                    "setAuthButton": {
+                        "textColor": "#60AEC6",
+                        "font": "PingFangSC-Regular,14",
+                        "disabledTextColor": "#FFFFFF66",
+                    },
+                    "leftTipImage": "add_auth_guide_left_tip",
+                    "bluetoothAuthImage": "add_ble_auth_guide",
+                    "bluetoothOpenImage": "add_ble_open_guide",
+                    "localNetworkAuthImage": "add_local_network_auth_guide",
+                    "wifiOpenImage": "add_wifi_open_guide",
+                    "lineBackgroundColor": "#465A5F",
+                },
+            },
+            "SearchViewController": {
+                "ItemCell": {
+                    "nameLabel": {
+                        "textColor": "#FFFFFF",
+                        "font": "PingFangSC-Semibold,16",
+                    }
+                },
+                "SearchView": {
+                    "textColor": "#FFFFFF",
+                    "font": "PingFangSC-Regular,14",
+                    "placeholderColor": "#FFFFFF99",
+                    "placeholderFont": "PingFangSC-Regular,14",
+                    "searchImage": "add_device_search_search",
+                    "clearImage": "add_device_search_clear",
+                    "backgroundColor": "#000000",
+                    "cancelButton": {
+                        "textColor": "#FFFFFF",
+                        "font": "PingFangSC-Regular,14",
+                    },
+                },
+            },
+            "ResetDeviceController": {
+                "coverImage": "add_device_reset_cover",
+                "contentLabel": {
+                    "textColor": "#FFFFFF",
+                    "font": "PingFangSC-Regular,14",
+                },
+                "selectButton": {
+                    "textColor": "#60AEC6",
+                    "font": "PingFangSC-Regular,14",
+                    "normalImage": "add_device_reset_select_normal",
+                    "selectImage": "add_device_reset_select_select",
+                },
+                "nextButton": {
+                    "textColor": "#FFFFFF",
+                    "font": "PingFangSC-Semibold,16",
+                    "backgroundColor": "#60AEC6",
+                    "disabledTextColor": "#FFFFFF4C",
+                    "disableBackgroundColor": "#60AEC64C",
+                },
+            },
+            "ScanNoneController": {
+                "titleColor": "#FFFFFF",
+                "titleFont": "PingFangSC-Semibold,16",
+                "contentColor": "#FFFFFF99",
+                "contentFont": "PingFangSC-Regular,14",
+            },
+            "SelectWorkWifiController": {
+                "nameLabel": {
+                    "textColor": "#FFFFFF99",
+                    "font": "PingFangSC-Regular,14",
+                },
+                "textField": {
+                    "textColor": "#FFFFFF",
+                    "font": "PingFangSC-Regular,16",
+                    "backgroundColor": "#09232A",
+                    "placeholderColor": "#FFFFFF99",
+                },
+                "wifiTipLabel": {
+                    "textColor": "#60AEC6",
+                    "font": "PingFangSC-Regular,14",
+                    "redTextColor": "#FF574B",
+                },
+                "nextButton": {
+                    "textColor": "#FFFFFF",
+                    "font": "PingFangSC-Semibold,16",
+                    "backgroundColor": "#60AEC6",
+                    "disabledTextColor": "#FFFFFF4C",
+                    "disableBackgroundColor": "#60AEC64C",
+                },
+            },
+            "SelectBluetoothDeviceController": {
+                "progressView": {
+                    "backgroundColor": "#00000000",
+                    "progressTintColor": "#60AEC6",
+                },
+                "scanAgainButton": {
+                    "textColor": "#FFFFFF",
+                    "font": "PingFangSC-Semibold,16",
+                    "backgroundColor": "#60AEC6",
+                    "disabledTextColor": "#FFFFFF4C",
+                    "disabledBackgroundColor": "#60AEC64C",
+                },
+            },
+            "SelectDeviceWifiController": {
+                "instructionLabel": {
+                    "textColor": "#FFFFFF",
+                    "font": "PingFangSC-Regular,14",
+                },
+                "wifiLabel": {
+                    "textColor": "#60AEC6",
+                    "font": "PingFangSC-Regular,14",
+                },
+            },
+            "BindDeviceController": {
+                "instructionLabel": {
+                    "textColor": "#FFFFFF",
+                    "font": "PingFangSC-Semibold,16",
+                },
+                "lineBackgroundColor": "#16434F",
+                "StepCell": {
+                    "contentLabel": {
+                        "textColor": "#FFFFFF",
+                        "font": "PingFangSC-Regular,14",
+                    },
+                    "successImage": "bind_device_step_success",
+                    "loadingImage": "bind_device_step_loading",
+                    "reasonButton": {
+                        "textColor": "#FF574B",
+                        "font": "PingFangSC-Regular,14",
+                    },
+                },
+                "BindDeviceFailReasonController": {
+                    "titleColor": "#FFFFFF",
+                    "titleFont": "PingFangSC-Semibold,16",
+                    "contentColor": "#FFFFFF99",
+                    "contentFont": "PingFangSC-Regular,14",
+                },
+            },
+        },
+    },
+    "Device": {
+        "Sweeper": {
+            "CleaningController": {
+                "cleanButton": {
+                    "textColor": "#FFFFFF",
+                    "font": "PingFangSC-Semibold,16",
+                    "backgroundColor": "#60AEC6",
+                },
+                "statusLabel": {
+                    "textColor": "#FFFFFF",
+                    "font": "PingFangSC-Regular,14",
+                },
+            },
+        },
+    },
+}

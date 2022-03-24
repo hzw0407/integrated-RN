@@ -1,0 +1,90 @@
+{
+    "PluginSweeperTheme": {
+        "Global": {
+            
+        },
+        "CleaningViewController": {
+            "NavigationBar": {
+                "backButton": {
+                    "image": "nav_back_normal_basic",
+                    "highlightedImage": "nav_back_high_basic",
+                },
+                "titleLabel": {
+                    "textColor": "#FFFFFF99",
+                    "font": "PingFangSC-Regular,14",
+                },
+                "settingsButton": {
+                    "image": "",
+                },
+            },
+            "CleaningControlView": {
+                "backgroundColor": {
+                    "fromColor": "#35373E",
+                    "toColor": "#1A1B1F",
+                    "topSideColor": "#525C6B",
+                },
+                "stationButton": {
+                    "backImage": "ps_cleaning_station_back",
+                    "stopImage": "ps_cleaning_station_stop",
+                },
+                "cleaningButton": {
+                    "startImage": "ps_cleaning_control_start",
+                    "pauseImage": "ps_cleaning_control_pasue",
+                },
+                "stationLabel": {
+                    "textColor": "#FFFFFF",
+                    "font": "PingFangSC-Semibold,14",
+                },
+                "slideTipLabel": {
+                    
+                },
+            },
+            "MapView": {
+                "PlanView": {
+                    "pageControl": {
+                        "currentPageIndicatorTintColor": "#FFFFFF",
+                        "pageIndicatorTintColor": "#616265",
+                    },
+                },
+                "PlanTitleView": {
+                    "autoPlanImage": "",
+                    "customPlanImage": "",
+                    "titleLabel": {
+                        "textColor": "#FFFFFF",
+                        "font": "PingFangSC-Semibold,18",
+                    },
+                    "foldImage": "",
+                    "unfoldImage": "",
+                    "foldBackgroundColor": "#303237",
+                },
+                "AutoPlanView": {
+                    "backgroundColor": "#303237",
+                    "ItemCell": {
+                        "suctionLevelImage": "",
+                        "waterLevelImage": "",
+                        "mopLevelImage": "",
+                        "titleLabel": {
+                            "textColor": "#FFFFFF",
+                            "font": "PingFangSC-Semibold,16",
+                        },
+                        "levelLabel": {
+                            "textColor": "#FFFFFF99",
+                            "font": "PingFangSC-Regular,14",
+                        },
+                        "progressView": {
+                            "progressFromColor": "#30C4D7",
+                            "progressToColor": "#3A7CDA",
+                            "trackColor": "#3B4049",
+                        },
+                    },
+                },
+                "CustomPlanView": {
+                    "backgroundColor": "#303237",
+                },
+            },
+            "BaseStationControlView": {
+                
+            },
+        },
+    },
+}

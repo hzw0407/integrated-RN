@@ -1,0 +1,67 @@
+require_relative '../node_modules/react-native/scripts/react_native_pods'
+require_relative '../node_modules/@react-native-community/cli-platform-ios/native_modules'
+
+platform :ios, '11.0'
+
+target 'AllInOne' do
+  use_frameworks!
+#  use_modular_headers! #这句要加
+  inhibit_all_warnings!
+  config = use_native_modules!
+
+  use_react_native!(
+    :path => config[:reactNativePath],
+    # to enable hermes on iOS, change `false` to `true` and then install pods
+#    :hermes_enabled => false
+  )
+  
+  pod 'Starscream'
+  pod 'KMNavigationBarTransition'
+  pod 'Alamofire', '~> 4.9.1'
+  pod 'CryptoSwift', '~> 1.4.2'
+  pod 'RNCryptor'
+  pod 'ObjectMapper', '3.3.0'
+  pod 'MQTTClient', '~> 0.15.3'
+  pod 'MQTTClient/Websocket'
+  pod 'SocketRocket', '~> 0.5.1'
+  pod 'SwiftTheme', '~> 0.6.3'
+  pod 'SnapKit'
+  pod 'ESTabBarController-swift', '~> 2.8.0'
+  pod 'WCDB.swift', '~>  1.0.8.2'
+  pod 'IQKeyboardManager'
+  pod 'SDWebImage'
+  pod 'ZLPhotoBrowser', '4.2.0'
+  pod 'MBProgressHUD'
+  pod 'PySwiftyRegex'
+  pod 'CocoaAsyncSocket'
+  pod 'BabyBluetooth', '0.7.0'
+  pod 'WechatOpenSDK'
+  pod 'AMap3DMap-NO-IDFA'
+  pod 'AMapSearch-NO-IDFA'
+  pod 'AMapLocation-NO-IDFA'
+  pod 'JXSegmentedView'
+  pod 'SwipeCellKit'
+  pod 'MGSwipeTableCell'
+  pod 'MJRefresh'
+  pod 'SSZipArchive'
+  pod 'AliyunOSSiOS'
+  pod 'AWSMobileClient'
+  pod 'AWSS3'
+  pod 'Charts'
+
+  target 'AllInOneTests' do
+    inherit! :complete
+    # Pods for testing
+  end
+
+  # Enables Flipper.
+  #
+  # Note that if you have use_frameworks! enabled, Flipper will not work and
+  # you should disable the next line.
+#  use_flipper!()
+
+  post_install do |installer|
+    react_native_post_install(installer)
+    __apply_Xcode_12_5_M1_post_install_workaround(installer)
+  end
+end

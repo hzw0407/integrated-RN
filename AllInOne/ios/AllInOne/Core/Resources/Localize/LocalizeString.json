@@ -1,0 +1,34 @@
+{
+    "en": {
+        "global_confirm": "Confirm",
+        "global_cancel": "Cancel",
+        
+        "tab_home_title": "Home",
+        "tab_scene_title": "Scene",
+        "tab_mine_title": "Me",
+        
+        "login_title": "Login",
+        "login_register_button": "Register",
+        "login_country_search_placeholder": "Search",
+        "login_password_length_limit": "The password length should be between 6 and 32 bytes.",
+        "login_get_ver_code": "Get verification code",
+        
+        "register_title": "Register",
+    },
+    "zh-Hans": {
+        "global_confirm": "确认",
+        "global_cancel": "取消",
+        
+        "tab_home_title": "首页",
+        "tab_scene_title": "场景",
+        "tab_mine_title": "我的",
+        
+        "login_title": "登录",
+        "login_register_button": "注册",
+        "login_country_search_placeholder": "搜索",
+        "login_password_length_limit": "密码长度应在6-32个字节。",
+        "login_get_ver_code": "获取验证码",
+        
+        "register_title": "注册",
+    },
+}
