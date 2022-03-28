@@ -250,11 +250,13 @@ const parseBase64Map = (mapData) => {
     console.log(`--色值:`, Object.keys(colorDic));
     // console.log(`地图数据:`, newMapData.join(','));
 
-    rgbaArray = new Uint8Array(rgbaArrayT);
-    var base64 = Uint8ToBase64(mapHeadInfo.size_x, mapHeadInfo.size_y, rgbaArray);
+    const rgbaArray = new Uint8Array(rgbaArrayT);
+    // var base64 = Uint8ToBase64(mapHeadInfo.size_x, mapHeadInfo.size_y, rgbaArray);
+    var base64 = Uint8ToBase64(robotMap.mapHead.sizeX, robotMap.mapHead.sizeY, rgbaArray);
 
     //isGyroDevice = false;
   
+    console.log('imageBase64.length:', base64.length);
     map_base64 = base64;
 }
 
