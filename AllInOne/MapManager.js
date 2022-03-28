@@ -1,5 +1,6 @@
 import { SCCMapColor,SMapColorConfig,SMapValueType } from './MapConfig';
-import buffer, { Buffer } from 'buffer';
+import { Buffer } from 'buffer';
+import base64 from 'react-native-base64';
 let robotMap = null; // 总的解析模型
 let map_base64 = ''; // 地图的base64字符串
 
@@ -429,7 +430,7 @@ const encodeData = (data) => {
         strData = data;
         // console.log(`编码之前 = ${strData}`);
         // console.log(`编码之后 = ${new Buffer(strData, 'latin1').toString('base64')}`);
-        return new Buffer(strData, 'latin1').toString('base64');
+        // return new Buffer(strData, 'latin1').toString('base64');
     } else {
         var aData = data;
         for (var i = 0; i < aData.length; i++) {
@@ -438,9 +439,10 @@ const encodeData = (data) => {
         //Qk02ECcAAAAAADYAAAAoAAAAIAMAACADAAABACAAAAAAAABMHQAAAAAAAAAAAAAAAAAAAAAA   6819870
         // console.log(`编码之前 = ${strData} 编码之后 = ${btoa(strData)}`);
         // console.log(`编码之后 = ${new Buffer(strData).toString('base64')}`);
-        return new Buffer(strData).toString('base64');
+        // return new Buffer(strData).toString('base64');
     }
     // return btoa(strData);
+    return base64.encode(strData);
 
     
     
